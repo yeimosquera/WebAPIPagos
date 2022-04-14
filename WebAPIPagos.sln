@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIPagos", "WebAPIPagos\WebAPIPagos.csproj", "{7E11B483-E91F-4D86-8F88-37042DECECBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E11B483-E91F-4D86-8F88-37042DECECBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E11B483-E91F-4D86-8F88-37042DECECBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E11B483-E91F-4D86-8F88-37042DECECBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E11B483-E91F-4D86-8F88-37042DECECBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E618881-3A53-478A-A2E6-CE1E549D5BB9}
+	EndGlobalSection
+EndGlobal

@@ -5,6 +5,130 @@
 <a href="https://ibb.co/f0SbBbh"><img src="https://i.ibb.co/F7W9N9S/Sin-t-tulo.png" alt="Sin-t-tulo" border="0" /></a>
 
 
+<h1>M&eacute;todos:</h1>
+<table border="1" style="border-collapse: collapse; width: 100%; height: 385px;">
+<tbody>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px; text-align: center;"><strong>Url</strong></td>
+<td style="width: 8.494%; height: 18px; text-align: center;"><strong>Tipo</strong></td>
+<td style="width: 38.6046%; height: 18px; text-align: center;"><strong>Par&aacute;metros</strong></td>
+<td style="width: 28.6667%; text-align: center; height: 18px;"><strong>Descripci&oacute;n</strong></td>
+</tr>
+<tr style="height: 59px;">
+<td style="width: 24.2347%; height: 59px;">api/Usuarios</td>
+<td style="width: 8.494%; height: 59px; text-align: center;">GET</td>
+<td style="width: 38.6046%; height: 59px; text-align: center;"></td>
+<td style="width: 28.6667%; height: 59px;">Devuelve en JSON la lista de los Usuarios.</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Usuarios/id</td>
+<td style="width: 8.494%; height: 18px; text-align: center;">GET</td>
+<td style="width: 38.6046%; height: 18px; text-align: center;">id(int)</td>
+<td style="width: 28.6667%; height: 18px;">Devuelve en JSON el usuario especificado en el par&aacute;metro Id</td>
+</tr>
+<tr style="height: 38px;">
+<td style="width: 24.2347%; height: 38px;">api/Usuarios/id</td>
+<td style="width: 8.494%; height: 38px; text-align: center;">PUT</td>
+<td style="width: 38.6046%; height: 38px; text-align: center;">
+<p>id(int), Objeto de usuarios (</p>
+<p>Id (int),<br />DocumentoIdentidad ([DocumentoIdentidad] [varchar](60) NULL,<br />[Nombres] [varchar](60) NULL,<br />[Telefono] [varchar](60) NULL,<br />[Correo] [varchar](60) NULL,<br />[Direccion] [varchar](60) NULL)</p>
+</td>
+<td style="width: 28.6667%; height: 38px;">Edita el Usuario especificado</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Usuarios</td>
+<td style="width: 8.494%; height: 18px; text-align: center;">POST</td>
+<td style="width: 38.6046%; height: 18px; text-align: center;">
+<p>Objeto de usuarios(</p>
+<p>Id (int),<br />DocumentoIdentidad ([DocumentoIdentidad] [varchar](60) NULL,<br />[Nombres] [varchar](60) NULL,<br />[Telefono] [varchar](60) NULL,<br />[Correo] [varchar](60) NULL,<br />[Direccion] [varchar](60) NULL,)</p>
+</td>
+<td style="width: 28.6667%; height: 18px;">Crea un usuario</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Usuarios/id</td>
+<td style="width: 8.494%; height: 18px; text-align: center;">DELETE</td>
+<td style="width: 38.6046%; height: 18px; text-align: center;">id(int)</td>
+<td style="width: 28.6667%; height: 18px;">Elimina el Usuario especificado&nbsp;</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Productos</td>
+<td style="width: 8.494%; text-align: center; height: 18px;">GET</td>
+<td style="width: 38.6046%; text-align: center; height: 18px;"></td>
+<td style="width: 28.6667%; height: 18px;">Devuelve en JSON la lista de los Productos</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Productos/id</td>
+<td style="width: 8.494%; text-align: center; height: 18px;">GET</td>
+<td style="width: 38.6046%; text-align: center; height: 18px;">id(int)</td>
+<td style="width: 28.6667%; height: 18px;">Devuelve en JSON el producto especificado en el par&aacute;metro Id</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Productos/id</td>
+<td style="width: 8.494%; text-align: center; height: 18px;">PUT</td>
+<td style="width: 38.6046%; text-align: center; height: 18px;">
+<p>id(int), Objeto de Producto(</p>
+<p>[Nombre] [varchar](50) NULL,<br />[Descripcion] [varchar](255) NULL,<br />[Precio] [decimal](18, 0) NULL)</p>
+</td>
+<td style="width: 28.6667%; height: 18px;">Edita el Producto especificado</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Productos</td>
+<td style="width: 8.494%; text-align: center; height: 18px;">POST</td>
+<td style="width: 38.6046%; text-align: center; height: 18px;">
+<p>id(int), Objeto de Producto(</p>
+<p>[Nombre] [varchar](50) NULL,<br />[Descripcion] [varchar](255) NULL,<br />[Precio] [decimal](18, 0) NULL)</p>
+</td>
+<td style="width: 28.6667%; height: 18px;">Crea un Producto</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Productos/id</td>
+<td style="width: 8.494%; text-align: center; height: 18px;">DELETE</td>
+<td style="width: 38.6046%; text-align: center; height: 18px;">id(int)</td>
+<td style="width: 28.6667%; height: 18px;">Elimina un Producto</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Pedidos</td>
+<td style="width: 8.494%; text-align: center; height: 18px;">GET</td>
+<td style="width: 38.6046%; text-align: center; height: 18px;"></td>
+<td style="width: 28.6667%; height: 18px;">Devuelve en JSON la lista de los Pedidos</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Pedidos/id</td>
+<td style="width: 8.494%; text-align: center; height: 18px;">GET</td>
+<td style="width: 38.6046%; text-align: center; height: 18px;">id(int)</td>
+<td style="width: 28.6667%; height: 18px;">Obtiene el pedido especificado</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Pedidos/id</td>
+<td style="width: 8.494%; text-align: center; height: 18px;">PUT</td>
+<td style="width: 38.6046%; text-align: center; height: 18px;">
+<p>id(int),Objeto Pedido(</p>
+<p>[IdProducto] [int] NULL,<br />[IdUsuario] [int] NULL,<br />[Catidad] [int] NULL,<br />[Iva] [decimal](18, 0) NULL,<br />[Subtotal] [decimal](18, 0) NULL,<br />[Total] [decimal](18, 0) NULL,<br />[Pago] [bit] NULL,<br />[Enviado] [bit] NULL,</p>
+<p>)</p>
+</td>
+<td style="width: 28.6667%; height: 18px;">Actualiza el estado del pedido, incluyendo el estado de facturaci&oacute;n y de envi&oacute;</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Pedidos</td>
+<td style="width: 8.494%; height: 18px; text-align: center;">POST</td>
+<td style="width: 38.6046%; height: 18px; text-align: center;">
+<p>Objeto Pedido(</p>
+<p>[IdProducto] [int] NULL,<br />[IdUsuario] [int] NULL,<br />[Catidad] [int] NULL,<br />[Iva] [decimal](18, 0) NULL,<br />[Subtotal] [decimal](18, 0) NULL,<br />[Total] [decimal](18, 0) NULL,<br />[Pago] [bit] NULL,<br />[Enviado] [bit] NULL,</p>
+<p>)</p>
+</td>
+<td style="width: 28.6667%; height: 18px;">Crea el pedido, adem&aacute;s le calcula el iva, el total y el subtotal</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 24.2347%; height: 18px;">api/Pedidos/id</td>
+<td style="width: 8.494%; height: 18px; text-align: center;">DELETE</td>
+<td style="width: 38.6046%; height: 18px; text-align: center;">id(int)</td>
+<td style="width: 28.6667%; height: 18px;">Elimina un pedido</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&nbsp; &nbsp; &nbsp;</strong></p>
+
+
 <h2>Tipos de respuesta:</h2>
 <table aria-label="C&oacute;digos de estado HTTP" class="table table-sm">
 <thead>
